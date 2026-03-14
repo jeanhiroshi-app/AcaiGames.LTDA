@@ -1,0 +1,190 @@
+═══════════════════════════════════════════════════════════════════
+    INSTRUÇÕES COMPLETAS PARA HOSPEDAR SEU SITE NO GITHUB PAGES
+═══════════════════════════════════════════════════════════════════
+
+📋 PASSO A PASSO DETALHADO:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 1: PREPARAR OS ARQUIVOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Baixe todos os arquivos que criei para você:
+   ✓ index.html
+   ✓ styles.css
+   ✓ script.js
+   ✓ README.md
+   ✓ .gitignore
+
+2. Coloque todos em uma MESMA pasta no seu computador
+   (ex: C:\Documentos\acai-games-website)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 2: CRIAR CONTA NO GITHUB (se ainda não tiver)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Acesse: https://github.com
+2. Clique em "Sign up" (Criar conta)
+3. Preencha:
+   - Username (nome de usuário) - ESCOLHA COM CUIDADO! Vai aparecer na URL
+   - Email
+   - Senha
+4. Confirme seu email
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 3: CRIAR O REPOSITÓRIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. No GitHub, clique no botão verde "New" (ou ícone +) no canto superior direito
+2. Preencha:
+   
+   Repository name: acai-games-website
+   
+   Description: Site oficial da Açaí Games LTDA
+   
+   ○ Public (IMPORTANTE: deixe PÚBLICO)
+   ○ Private
+   
+   [ ] Add a README file (NÃO MARQUE - já temos um README)
+   
+3. Clique em "Create repository" (botão verde)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 4: FAZER UPLOAD DOS ARQUIVOS (MÉTODO FÁCIL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Você verá uma página com várias opções. Escolha:
+
+1. Clique no link "uploading an existing file"
+   
+2. ARRASTE todos os 5 arquivos para a área indicada:
+   - index.html
+   - styles.css
+   - script.js
+   - README.md
+   - .gitignore
+   
+3. No campo "Commit changes", escreva:
+   "Adicionar site da Açaí Games"
+   
+4. Clique em "Commit changes" (botão verde)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 5: ATIVAR O GITHUB PAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. No seu repositório, clique em "Settings" (Configurações)
+   
+2. No menu LATERAL ESQUERDO, role até encontrar "Pages"
+   
+3. Em "Build and deployment":
+   
+   Source: [Deploy from a branch ▼]
+   
+   Branch: [main ▼] [/ (root) ▼] [Save]
+   
+4. Clique em "Save"
+
+5. AGUARDE 2-5 MINUTOS
+
+6. Recarregue a página (F5)
+
+7. Você verá uma mensagem verde:
+   "Your site is live at https://SEU-USUARIO.github.io/acai-games-website/"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ETAPA 6: ACESSAR SEU SITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Seu site estará disponível em:
+
+    https://SEU-USUARIO.github.io/acai-games-website/
+
+Substitua "SEU-USUARIO" pelo seu nome de usuário do GitHub!
+
+EXEMPLO:
+Se seu usuário for "joaosilva", a URL será:
+https://joaosilva.github.io/acai-games-website/
+
+
+═══════════════════════════════════════════════════════════════════
+                         SOLUÇÃO DE PROBLEMAS
+═══════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA: Site não aparece / Erro 404
+
+✅ SOLUÇÕES:
+   1. Aguarde mais tempo (pode levar até 10 minutos na primeira vez)
+   2. Verifique se o repositório está PÚBLICO
+   3. Certifique-se que o arquivo se chama EXATAMENTE "index.html" (minúsculas)
+   4. Vá em Settings → Pages e veja se está ativado
+
+
+❌ PROBLEMA: Página aparece sem estilo
+
+✅ SOLUÇÕES:
+   1. Verifique se TODOS os arquivos foram enviados
+   2. Certifique-se que estão na RAIZ do repositório (não em subpastas)
+   3. Abra o DevTools (F12) e veja se há erros
+
+
+❌ PROBLEMA: JavaScript não funciona
+
+✅ SOLUÇÕES:
+   1. Limpe o cache do navegador (Ctrl + Shift + Delete)
+   2. Teste em modo anônimo
+   3. Verifique se o arquivo script.js foi enviado
+
+
+═══════════════════════════════════════════════════════════════════
+                    PRÓXIMOS PASSOS (OPCIONAL)
+═══════════════════════════════════════════════════════════════════
+
+🌐 USAR DOMÍNIO PRÓPRIO (ex: www.acaigames.com.br)
+
+1. Compre um domínio (Registro.br, GoDaddy, etc)
+2. Em Settings → Pages → Custom domain
+3. Digite seu domínio
+4. Configure o DNS do domínio apontando para GitHub
+
+
+📊 ADICIONAR GOOGLE ANALYTICS
+
+1. Crie uma conta no Google Analytics
+2. Copie o código de rastreamento
+3. Cole no arquivo index.html antes de </head>
+
+
+🔍 MELHORAR SEO
+
+1. Adicione meta tags no index.html
+2. Crie um arquivo sitemap.xml
+3. Registre no Google Search Console
+
+
+═══════════════════════════════════════════════════════════════════
+                        DICAS IMPORTANTES
+═══════════════════════════════════════════════════════════════════
+
+✓ Sempre que fizer alterações, faça um novo commit no GitHub
+✓ Pode levar alguns minutos para as mudanças aparecerem
+✓ O GitHub Pages é GRATUITO e sem limites de visitantes
+✓ Você pode ter quantos sites quiser
+✓ O site funciona 24/7 automaticamente
+✓ É possível usar HTTPS (já vem ativado por padrão)
+
+
+═══════════════════════════════════════════════════════════════════
+                            SUPORTE
+═══════════════════════════════════════════════════════════════════
+
+📖 Documentação oficial: https://pages.github.com
+📚 Tutoriais: https://docs.github.com/pt/pages
+
+═══════════════════════════════════════════════════════════════════
+
+Boa sorte com a Açaí Games! 🎮🚀
